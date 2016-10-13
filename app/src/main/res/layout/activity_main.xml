@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trajets"
+        android:id="@+id/carte"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/depart"
+        android:id="@+id/tV_depart"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <EditText android:id="@+id/depart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:editable="true"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arrivee"
+        android:id="@+id/tV_arrivee"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/arrivee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:editable="true"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transport"
+        android:id="@+id/transport"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/transportChoisi"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temps"
+        android:id="@+id/tV_temps"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tempsTrajet"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:id="@+id/buttonStart"
+        android:layout_weight="1" />
+
+</LinearLayout>
+

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AnimalTrip</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="trajets">Trajets</string>
+    <string name="transport">Transport</string>
+    <string name="depart">Départ</string>
+    <string name="arrivee">Arrivée</string>
+    <string name="distance">Distance</string>
+    <string name="temps">Temps de trajet</string>
+    <string name="titre">Titre</string>
+    <string name="start">Go !</string>
+    <string name="choix">Choix</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ok">OK !</string>
+    <string name="title_activity_maps_activity2">Map</string>
+    <string name="title_liste_transport">Transport</string>
+    <string name="triche">Si tu peux le faire à pied, c est triché !</string>
+    <string name="terminee">On y est!</string>
+
+</resources>
